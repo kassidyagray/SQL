@@ -1,0 +1,21 @@
+create a flower shop database
+create table flower_shop (id integer primary key, name text, color text, quantity integer, price integer);
+
+insert into flower_shop values (1, "Rose", "Red", 24, 7.99);
+insert into flower_shop values (2, "Dahlia", "Pink", 18, 6.49);
+insert into flower_shop values (3, "Hydrangea", "White", 20, 7.99);
+insert into flower_shop values (4, "Lilly", "Pink", 14, 3.39);
+insert into flower_shop values (5, "Daisy", "White", 30, 1.99);
+insert into flower_shop values (6, "Daffodil", "Yellow", 14, 7.99);
+insert into flower_shop values (7, "Lotus", "White", 8, 12.99);
+insert into flower_shop values (8, "Petunia", "Red", 6, 8.99);
+insert into flower_shop values (9, "Tulip", "Blue", 10, 7.99);
+insert into flower_shop values (10, "Violet", "Blue", 14, 9.95);
+insert into flower_shop values (11, "Azalea", "Pink", 16, 13.99);
+insert into flower_shop values (12, "Iris", "Purple", 18, 9.99);
+insert into flower_shop values (13, "Orchid", "Pink", 11, 7.99);
+insert into flower_shop values (14, "Carnation", "White", 2, 6.95);
+insert into flower_shop values (15, "Peony", "Pink", 18, 4.99);
+
+Select all items from flower shop that have a quanitiy over 10 and organized by price
+select * from flower_shop where quantity > 10 order by price
